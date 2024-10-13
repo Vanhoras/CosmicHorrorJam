@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PlayerParent
+  - CapeController
+  - ItemDisplay1
+  - ItemDisplay2
+  - ItemDisplay3
+  - ItemDisplay4
+  - Cape
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Background
+  - Foreground
+  - NPCs
+  - Interactibles
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 1600156633
+    locked: 0
+  - name: Middleground
+    uniqueID: 1445019775
+    locked: 0
+  - name: Ground
+    uniqueID: 663605005
+    locked: 0
+  - name: Foreground
+    uniqueID: 3281060803
+    locked: 0
+  - name: Orb
+    uniqueID: 1524576861
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player_Behind
+    uniqueID: 3363513181
+    locked: 0
+  - name: Walkables
+    uniqueID: 2852905347
+    locked: 0
+  - name: Player_Front
+    uniqueID: 1297224517
+    locked: 0
