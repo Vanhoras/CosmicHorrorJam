@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ennemy_0
+      name: ghost
       rect:
         serializedVersion: 2
-        x: 70
-        y: 445
-        width: 74
-        height: 270
+        x: 50
+        y: 111
+        width: 553
+        height: 467
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,34 +144,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ennemy_1
+      name: ghost_1
       rect:
         serializedVersion: 2
-        x: 233
-        y: 493
-        width: 136
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a186e3d9414188f42abfb2ac2273613b
-      internalID: 988165150
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ennemy_2
-      rect:
-        serializedVersion: 2
-        x: 427
-        y: 481
-        width: 116
-        height: 179
+        x: 639
+        y: 446
+        width: 143
+        height: 131
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,13 +165,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ennemy_6
+      name: ghost_2
       rect:
         serializedVersion: 2
-        x: 599
-        y: 490
-        width: 129
-        height: 159
+        x: 858
+        y: 452
+        width: 127
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2964d013dfc3bd842a14869faa72db4e
-      internalID: -1189082913
+      spriteID: 6b092d31206055e468cf083f8aebd09e
+      internalID: -1260287574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ennemy_14
+      name: ghost_3
       rect:
         serializedVersion: 2
-        x: 90
-        y: 260
-        width: 151
-        height: 103
+        x: 1030
+        y: 457
+        width: 85
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ea879e358dbbbf4aae9d23a8de095c9
-      internalID: -1106447335
+      spriteID: aa873a1d3f741564198907f2bb3a78ab
+      internalID: -685000665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ennemy_15
+      name: ghost_6
       rect:
         serializedVersion: 2
-        x: 245
-        y: 316
-        width: 100
-        height: 108
+        x: 633
+        y: 315
+        width: 227
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df15c7b8e78e95d49882988a80a87187
-      internalID: 2085956162
+      spriteID: 24103ac5922b70b4ea8cf948a8e1eafa
+      internalID: 1938183087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ennemy_16
+      name: ghost_4
       rect:
         serializedVersion: 2
-        x: 445
-        y: 148
-        width: 303
-        height: 301
+        x: 877
+        y: 266
+        width: 182
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,8 +242,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25b1fca29e0fd324ab71d5de5980e566
-      internalID: -1629043412
+      spriteID: 60ae237a61ffa054eb11c65cc9aac58b
+      internalID: 311756434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_5
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 245
+        width: 158
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e043edb7c87284a86765d2f66c8c06
+      internalID: 741091427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_7
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 104
+        width: 119
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9e2940248e98d40bc29b201b660ce4
+      internalID: 262190973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_8
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 26
+        width: 186
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92628b111043f2444a281e1cbfc866bb
+      internalID: -603015845
       vertices: []
       indices: 
       edges: []
@@ -280,26 +322,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ennemy_0: 1924603010
       ennemy_1: 988165150
-      ennemy_10: 194138350
       ennemy_11: 237011204
-      ennemy_12: -228363068
-      ennemy_13: -1047997552
       ennemy_14: -1106447335
-      ennemy_15: 2085956162
-      ennemy_16: -1629043412
-      ennemy_17: 1080601428
-      ennemy_18: -1685600664
-      ennemy_19: -668690647
-      ennemy_2: 1932674089
       ennemy_3: 1095426442
-      ennemy_4: 374052511
-      ennemy_5: -911410996
       ennemy_6: -1189082913
-      ennemy_7: 333071434
-      ennemy_8: 588757135
       ennemy_9: -228136170
+      ghost: 1924603010
+      ghost_1: 1932674089
+      ghost_2: 374052511
+      ghost_3: -911410996
+      ghost_4: 588757135
+      ghost_5: 194138350
+      ghost_6: 333071434
+      ghost_7: -228363068
+      ghost_8: -1047997552
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

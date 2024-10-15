@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e9b69dffdd20ed944a8a10740903bb78
+guid: ff12ed01fcfe8424c80c40b8ad9e871e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,127 +123,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fireball
+      name: ifrit_braid
       rect:
         serializedVersion: 2
-        x: 144
-        y: 181
-        width: 249
-        height: 194
+        x: 44
+        y: 448
+        width: 227
+        height: 177
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d490b5ee36243aa41aca047d9e3e7ced
-      internalID: -753465170
+      spriteID: 22b6e3581ee7f3e468bf971019c8d2bc
+      internalID: -322434348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: iffrit_1
+      name: fire_ring
       rect:
         serializedVersion: 2
-        x: 411
-        y: 39
+        x: 529
+        y: 334
+        width: 331
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b554705ddcb09f4aa860eb2ba388df3
+      internalID: -1053605948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ifrit_star
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 514
+        width: 119
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2cb523b0af5d24db41fc99f150a563
+      internalID: 895576035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ifrit
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 87
         width: 228
         height: 405
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2163ac5b366e10346bf9ab43d336ae6b
-      internalID: -1304951462
+      spriteID: b7eeaf17878c6d947b6658b1171d53ec
+      internalID: 1927185229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fire_circle
+      name: ifrit_arm_1
       rect:
         serializedVersion: 2
-        x: 933
-        y: 156
-        width: 330
-        height: 292
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef8cf261f043dd64fac7e0d0af2c6f92
-      internalID: 1134011208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: iffrit_arm_1
-      rect:
-        serializedVersion: 2
-        x: 670
-        y: 268
-        width: 175
+        x: 36
+        y: 311
+        width: 176
         height: 81
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40f45f6e1b7ac014bbdb51cda2b7b2d8
-      internalID: 1462219672
+      spriteID: 05ed0ef335d3f1a4ca0c364867254dae
+      internalID: -1700948935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: iffrit_arm_2
+      name: ifrit_arm_2
       rect:
         serializedVersion: 2
-        x: 676
-        y: 161
-        width: 175
-        height: 80
+        x: 38
+        y: 195
+        width: 176
+        height: 81
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ced679b37d863d4b9633b4b87103e6c
-      internalID: -1549306271
+      spriteID: 5e101293e0ca28a46a4af32cb6d2c6c5
+      internalID: 271079018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: iffrit_arm_3
+      name: fireball
       rect:
         serializedVersion: 2
-        x: 678
-        y: 58
-        width: 175
-        height: 79
+        x: 555
+        y: 114
+        width: 159
+        height: 134
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7838d958d3a65543b6f15c672acf867
-      internalID: 1930604
+      spriteID: 9adf302d850bfc04cac020ce007ee399
+      internalID: -393631615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ifrit_arm_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 75
+        width: 176
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144a42ee9130c5d4b842ed63754f0cd6
+      internalID: -1237977644
       vertices: []
       indices: 
       edges: []
@@ -259,30 +301,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fire_circle: 1134011208
-      fireball: -753465170
-      iffrit_1: -1304951462
-      iffrit_10: -1520618970
-      iffrit_12: -236398706
-      iffrit_13: 2005819706
-      iffrit_14: 312373567
-      iffrit_15: 286923506
-      iffrit_17: 1378214030
-      iffrit_18: 286818577
-      iffrit_19: 908460719
-      iffrit_2: 1876277859
-      iffrit_20: 165003478
-      iffrit_21: 1499886468
-      iffrit_22: 978872501
-      iffrit_23: 269818261
-      iffrit_4: 647399284
-      iffrit_6: -1054749830
-      iffrit_7: 426190182
-      iffrit_8: 1860784744
-      iffrit_9: 593659449
-      iffrit_arm_1: 1462219672
-      iffrit_arm_2: -1549306271
-      iffrit_arm_3: 1930604
+      Iffrit__01_1: 99042976
+      Iffrit__01_11: 1958120918
+      Iffrit__01_12: 1926077893
+      Iffrit__01_13: -1178726509
+      Iffrit__01_14: -810352872
+      Iffrit__01_15: -2079220638
+      Iffrit__01_16: -159306450
+      Iffrit__01_17: 1256802185
+      Iffrit__01_19: 609290873
+      Iffrit__01_20: 1795387557
+      Iffrit__01_24: -1970265206
+      Iffrit__01_25: 480907675
+      Iffrit__01_26: -1715157933
+      Iffrit__01_27: 228923229
+      Iffrit__01_28: -2004669738
+      Iffrit__01_29: 1792298246
+      Iffrit__01_3: -1937723039
+      Iffrit__01_30: 1041398234
+      Iffrit__01_31: 763918123
+      Iffrit__01_5: -756152435
+      Iffrit__01_6: 1978522596
+      Iffrit__01_7: 1397685144
+      Iffrit__01_8: -513791257
+      Iffrit__01_9: -1408272997
+      fire_ring: -1053605948
+      fireball: -393631615
+      ifrit: 1927185229
+      ifrit_arm_1: -1700948935
+      ifrit_arm_2: 271079018
+      ifrit_arm_3: -1237977644
+      ifrit_braid: -322434348
+      ifrit_star: 895576035
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

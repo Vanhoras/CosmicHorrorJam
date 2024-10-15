@@ -1,13 +1,31 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using CosmicHorrorJam.Util;
 
 public class Player : MonoBehaviour
 {
+    
+    [SerializeField]
+    private Dialogue dialogue;
+    [SerializeField]
+    private GameObject sprite;
+    [SerializeField]
+    private Stars stars;
+    [SerializeField]
+    private Braid braid;
+    [SerializeField]
+    private IfritArm ifritArm;
+    
+    [SerializeField]
+    private Fireball fireball;
+    
     private PlayerInputActions inputActions;
 
     private PlayerParent playerParent;
     private GameObject dummyTopScale;
     private GameObject dummyBottomScale;
+    
+    private DirectionFaced directionFaced;
 
     private void Start()
     {
@@ -47,13 +65,23 @@ public class Player : MonoBehaviour
         transform.localScale = Vector3.Lerp(topScale, bottomScale, 1 - percentY);
     }
 
-    private void ChangeDirection(bool left)
-    {
-        transform.rotation = left ? transform.rotation = Quaternion.Euler(0, 0, 0) : Quaternion.Euler(0, 180, 0);
-    }
-
     private void OnDestroy()
     {
         inputActions.Player.Click.performed -= OnMouseClick;
+    }
+    
+    public void FaceDirection(DirectionFaced directionFaced)
+    {
+        this.directionFaced = directionFaced;
+        
+        switch (directionFaced)
+        {
+            case DirectionFaced.Left:
+                sprite.transform.localScale = new Vector3(sprite.transform.localScale.x, 180, sprite.transform.localScale.z);
+                break;
+            case DirectionFaced.Right:
+                sprite.transform.localScale = new Vector3(sprite.transform.localScale.x, 0, sprite.transform.localScale.z);
+                break;
+        }
     }
 }
