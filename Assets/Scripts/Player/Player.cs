@@ -16,9 +16,6 @@ public class Player : MonoBehaviour
     [SerializeField]
     private IfritArm ifritArm;
     
-    [SerializeField]
-    private Fireball fireball;
-    
     private PlayerInputActions inputActions;
 
     private PlayerParent playerParent;
@@ -35,7 +32,6 @@ public class Player : MonoBehaviour
 
         inputActions = new PlayerInputActions();
         inputActions.Player.Enable();
-        inputActions.Player.Click.performed += OnMouseClick;
 
         AdjustPerspective();
 
@@ -45,11 +41,6 @@ public class Player : MonoBehaviour
     private void Update()
     {
         
-    }
-
-    private void OnMouseClick(InputAction.CallbackContext input)
-    {
-        Vector2 inputVector = inputActions.Player.Position.ReadValue<Vector2>();
     }
     
 
@@ -67,7 +58,7 @@ public class Player : MonoBehaviour
 
     private void OnDestroy()
     {
-        inputActions.Player.Click.performed -= OnMouseClick;
+        
     }
     
     public void FaceDirection(DirectionFaced directionFaced)
