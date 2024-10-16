@@ -12,12 +12,6 @@ public class Fireball: MonoBehaviour
     
     private Vector2 direction;
 
-    private void Start()
-    {
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-    }
-
     private void Update()
     {
         timer += Time.deltaTime;

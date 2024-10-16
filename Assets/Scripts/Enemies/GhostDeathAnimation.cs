@@ -6,25 +6,24 @@ public class GhostDeathAnimation: MonoBehaviour
     [SerializeField]
     private GameObject[] ghostParts;
     
+    private Animator animator;
+    
+    private static readonly int DeathTrigger = Animator.StringToHash("Death");
+    
     
     private void Start()
     {
+        animator = GetComponent<Animator>();
+        
         foreach (var ghostPart in ghostParts)
         {
             ghostPart.SetActive(false);
         }
     }
-
-    private void Update()
-    {
-        
-    }
     
-    public void Play()
+    public void PlayDeath()
     {
-        foreach (var ghostPart in ghostParts)
-        {
-            ghostPart.SetActive(true);
-        }
+        Debug.Log("PlayDeath");
+        animator.SetTrigger(DeathTrigger);
     }
 }

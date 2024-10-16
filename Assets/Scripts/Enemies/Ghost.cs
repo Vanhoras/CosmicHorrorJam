@@ -23,16 +23,18 @@ public class Ghost : MonoBehaviour
 
     private void Update()
     {
-        if (!dead)
-        {
-            
-        }
+        if (dead) return;
+        
+        
     }
     
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("OnTriggerEnter2D " + other.tag);
+        
         if (other.CompareTag("Attack") && !dead)
         {
+            Debug.Log("Tag correct");
             OnHit();
         }
     }
@@ -40,7 +42,7 @@ public class Ghost : MonoBehaviour
     private void OnHit()
     {
         dead = true;
-        deathAnimation.Play();
+        deathAnimation.PlayDeath();
         sprite.SetActive(false);
     }
     
@@ -52,9 +54,11 @@ public class Ghost : MonoBehaviour
         {
             case DirectionFaced.Left:
                 sprite.transform.localScale = new Vector3(sprite.transform.localScale.x, 180, sprite.transform.localScale.z);
+                deathAnimation.transform.localScale = new Vector3(sprite.transform.localScale.x, 180, sprite.transform.localScale.z);
                 break;
             case DirectionFaced.Right:
                 sprite.transform.localScale = new Vector3(sprite.transform.localScale.x, 0, sprite.transform.localScale.z);
+                deathAnimation.transform.localScale = new Vector3(sprite.transform.localScale.x, 180, sprite.transform.localScale.z);
                 break;
         }
     }

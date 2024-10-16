@@ -97,6 +97,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bddae8c92f14515b96df227e4309cc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minAngle: -71
+  maxAngle: 71
+  cooldownDuration: 0.75
   animator: {fileID: 7145673607103358862}
   fireball: {fileID: 5773510992750421548, guid: d94c610a6a8d3da4c8a980d198f47412, type: 3}
   spawnPoint: {fileID: 5184143738377808681}

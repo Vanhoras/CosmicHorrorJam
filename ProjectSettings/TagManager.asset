@@ -68,6 +68,9 @@ TagManager:
   - name: Walkables
     uniqueID: 2852905347
     locked: 0
+  - name: Enemy_Behind
+    uniqueID: 2780473227
+    locked: 0
   - name: Enemy
     uniqueID: 2773348561
     locked: 0
