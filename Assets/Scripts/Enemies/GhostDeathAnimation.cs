@@ -23,7 +23,6 @@ public class GhostDeathAnimation: MonoBehaviour
     
     public void PlayDeath()
     {
-        Debug.Log("PlayDeath");
         animator.SetTrigger(DeathTrigger);
     }
 }

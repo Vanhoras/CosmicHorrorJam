@@ -26,13 +26,11 @@ public class InventoryDisplay : MonoBehaviour
 
         inputActions = new PlayerInputActions();
         inputActions.Player.Enable();
-        inputActions.Player.OpenInventory.performed += OnOpenInventory;
     }
 
     private void OnDestroy()
     {
         InventoryManager.instance.ItemAddedToInventory -= OnItemAdded;
-        inputActions.Player.OpenInventory.performed -= OnOpenInventory;
     }
 
     private void OnItemAdded(ItemData item)

@@ -1,3 +1,4 @@
+using CosmicHorrorJam.Util;
 using UnityEngine;
 
 public class PlayerParent : MonoBehaviour
@@ -13,4 +14,6 @@ public class PlayerParent : MonoBehaviour
 
     [SerializeField]
     public float speedModifier = 1f;
+
+    [SerializeField] public DirectionFaced startDirectionFaced = DirectionFaced.Right;
 }

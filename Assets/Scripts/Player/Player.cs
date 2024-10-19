@@ -1,9 +1,11 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 using CosmicHorrorJam.Util;
 
 public class Player : MonoBehaviour
 {
+    
+    [SerializeField]
+    private float speed;
     
     [SerializeField]
     private Dialogue dialogue;
@@ -22,10 +24,14 @@ public class Player : MonoBehaviour
     private GameObject dummyTopScale;
     private GameObject dummyBottomScale;
     
+    private Rigidbody2D rb;
+    
     private DirectionFaced directionFaced;
 
     private void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
+        
         playerParent = transform.parent.GetComponent<PlayerParent>();
         dummyTopScale = playerParent.dummyTopScale;
         dummyBottomScale = playerParent.dummyBottomScale;
@@ -35,14 +41,33 @@ public class Player : MonoBehaviour
 
         AdjustPerspective();
 
+        FaceDirection(playerParent.startDirectionFaced);
     }
 
     // Update is called once per frame
     private void Update()
     {
+        Vector2 inputVector = inputActions.Player.Move.ReadValue<Vector2>();
         
+        if (inputVector == Vector2.zero) return;
+
+        Move(inputVector);
+
+        if (inputVector.x > 0 && directionFaced != DirectionFaced.Right)
+        {
+            FaceDirection(DirectionFaced.Right);
+        } else if (inputVector.x < 0 && directionFaced != DirectionFaced.Left)
+        {
+            FaceDirection(DirectionFaced.Left);
+        }
     }
     
+    private void Move(Vector2 inputVector)
+    {
+        float currentSpeed = speed * Time.deltaTime;
+        
+        rb.AddForce(inputVector * currentSpeed);
+    }
 
     private void AdjustPerspective()
     {
@@ -64,14 +89,15 @@ public class Player : MonoBehaviour
     public void FaceDirection(DirectionFaced directionFaced)
     {
         this.directionFaced = directionFaced;
+        ifritArm.SetDirection(directionFaced);
         
         switch (directionFaced)
         {
             case DirectionFaced.Left:
-                sprite.transform.localScale = new Vector3(sprite.transform.localScale.x, 180, sprite.transform.localScale.z);
+                sprite.transform.rotation = Quaternion.Euler(0, 180, 0);
                 break;
             case DirectionFaced.Right:
-                sprite.transform.localScale = new Vector3(sprite.transform.localScale.x, 0, sprite.transform.localScale.z);
+                sprite.transform.rotation = Quaternion.Euler(0, 0, 0);
                 break;
         }
     }

@@ -4,6 +4,8 @@ using CosmicHorrorJam.Util;
 public class Ghost : MonoBehaviour
 {
     
+    [SerializeField] public DirectionFaced startDirectionFaced = DirectionFaced.Left;
+    
     [SerializeField]
     private GhostDeathAnimation deathAnimation;
 
@@ -18,7 +20,7 @@ public class Ghost : MonoBehaviour
     
     private void Start()
     {
-        
+        FaceDirection(startDirectionFaced);
     }
 
     private void Update()
@@ -30,11 +32,8 @@ public class Ghost : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("OnTriggerEnter2D " + other.tag);
-        
         if (other.CompareTag("Attack") && !dead)
         {
-            Debug.Log("Tag correct");
             OnHit();
         }
     }
@@ -53,12 +52,12 @@ public class Ghost : MonoBehaviour
         switch (directionFaced)
         {
             case DirectionFaced.Left:
-                sprite.transform.localScale = new Vector3(sprite.transform.localScale.x, 180, sprite.transform.localScale.z);
-                deathAnimation.transform.localScale = new Vector3(sprite.transform.localScale.x, 180, sprite.transform.localScale.z);
+                sprite.transform.rotation = Quaternion.Euler(0, 180, 0);
+                deathAnimation.transform.rotation = Quaternion.Euler(0, 180, 0);
                 break;
             case DirectionFaced.Right:
-                sprite.transform.localScale = new Vector3(sprite.transform.localScale.x, 0, sprite.transform.localScale.z);
-                deathAnimation.transform.localScale = new Vector3(sprite.transform.localScale.x, 180, sprite.transform.localScale.z);
+                sprite.transform.rotation = Quaternion.Euler(0, 0, 0);
+                deathAnimation.transform.rotation = Quaternion.Euler(0, 0, 0);
                 break;
         }
     }

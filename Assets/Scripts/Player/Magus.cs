@@ -4,6 +4,8 @@ using CosmicHorrorJam.Util;
 public class Magus: MonoBehaviour
 {
     
+    [SerializeField] public DirectionFaced startDirectionFaced = DirectionFaced.Right;
+    
     [SerializeField]
     private Dialogue dialogue;
     
@@ -20,6 +22,8 @@ public class Magus: MonoBehaviour
     {
         spriteFront.SetActive(faceFront);
         spriteBack.SetActive(!faceFront);
+        
+        FaceDirection(startDirectionFaced);
     }
     
     public void Flip(bool faceFront)
@@ -36,12 +40,12 @@ public class Magus: MonoBehaviour
         switch (directionFaced)
         {
             case DirectionFaced.Left:
-                spriteFront.transform.localScale = new Vector3(spriteFront.transform.localScale.x, 180, spriteFront.transform.localScale.z);
-                spriteBack.transform.localScale = new Vector3(spriteFront.transform.localScale.x, 0, spriteFront.transform.localScale.z);
+                spriteFront.transform.rotation = Quaternion.Euler(0, 180, 0);
+                spriteBack.transform.rotation = Quaternion.Euler(0, 0, 0);
                 break;
             case DirectionFaced.Right:
-                spriteFront.transform.localScale = new Vector3(spriteFront.transform.localScale.x, 0, spriteFront.transform.localScale.z);
-                spriteBack.transform.localScale = new Vector3(spriteFront.transform.localScale.x, 180, spriteFront.transform.localScale.z);
+                spriteFront.transform.rotation = Quaternion.Euler(0, 0, 0);
+                spriteBack.transform.rotation = Quaternion.Euler(0, 180, 0);
                 break;
         }
     }
