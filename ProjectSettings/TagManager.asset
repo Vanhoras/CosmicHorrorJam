@@ -59,9 +59,6 @@ TagManager:
   - name: Foreground
     uniqueID: 3281060803
     locked: 0
-  - name: Orb
-    uniqueID: 1524576861
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
@@ -79,4 +76,7 @@ TagManager:
     locked: 0
   - name: Player_Front
     uniqueID: 1297224517
+    locked: 0
+  - name: Front_of_Player
+    uniqueID: 3427077811
     locked: 0
