@@ -1,0 +1,14 @@
+version: 2
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Sprites/wetransfer_doomanim-tpsheet_2024-10-23_0955/doomanim.tpsheet
+- Assets/Sprites/wetransfer_doomanim-tpsheet_2024-10-23_0955/fireAnim.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Sprites/wetransfer_doomanim-tpsheet_2024-10-23_0955/doomanim.png
+- Assets/Sprites/wetransfer_doomanim-tpsheet_2024-10-23_0955/fireAnim.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+enableDebugOutput: 0

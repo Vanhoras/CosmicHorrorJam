@@ -85,8 +85,8 @@ public class IfritArm: MonoBehaviour
         float radians = angle * Mathf.Deg2Rad;
         Vector2 clampedDirection = new (Mathf.Cos(radians), Mathf.Sin(radians));
         
-        Fireball fireball = Instantiate(this.fireball, spawnPoint.transform.position, Quaternion.AngleAxis(angle, Vector3.forward));
-        fireball.SetDirection(clampedDirection);
+        Fireball fireballInstance = Instantiate(fireball, spawnPoint.transform.position, Quaternion.AngleAxis(angle, Vector3.forward));
+        fireballInstance.SetDirection(clampedDirection);
     }
     
     public void SetDirection(DirectionFaced directionFaced)

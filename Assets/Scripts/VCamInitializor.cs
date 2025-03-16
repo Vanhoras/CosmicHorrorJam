@@ -1,4 +1,4 @@
-using Cinemachine;
+using Unity.Cinemachine;
 using UnityEngine;
 
 public class VCamInitializor : MonoBehaviour
@@ -6,8 +6,8 @@ public class VCamInitializor : MonoBehaviour
 
     void Start()
     {
-        Player player = FindObjectOfType<Player>();
-        CinemachineVirtualCamera vCam = gameObject.GetComponent<CinemachineVirtualCamera>();
+        Player player = FindFirstObjectByType<Player>();
+        CinemachineCamera vCam = gameObject.GetComponent<CinemachineCamera>();
 
         vCam.Follow = player.gameObject.transform;
         vCam.LookAt = player.gameObject.transform;

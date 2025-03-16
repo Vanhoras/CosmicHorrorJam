@@ -80,11 +80,6 @@ public class Player : MonoBehaviour
 
         transform.localScale = Vector3.Lerp(topScale, bottomScale, 1 - percentY);
     }
-
-    private void OnDestroy()
-    {
-        
-    }
     
     public void FaceDirection(DirectionFaced directionFaced)
     {

@@ -1,0 +1,1592 @@
+fileFormatVersion: 2
+guid: 38d4bc1a19a9c5e46804a5480f7d74dc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: doompart0001
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 842
+        width: 142
+        height: 172
+      alignment: 9
+      pivot: {x: 0.41549295, y: 0.53488374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a326a38778017354da1c7ddb2677feab
+      internalID: -738133682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0002
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1200
+        width: 150
+        height: 170
+      alignment: 9
+      pivot: {x: 0.42, y: 0.5235294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036e7f51cd358a9438f6d7b8261f949a
+      internalID: -1808511279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0003
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1
+        width: 138
+        height: 168
+      alignment: 9
+      pivot: {x: 0.39130434, y: 0.51785713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95e8e234a806574b9479d1e2a187094
+      internalID: 1798057778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0004
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 651
+        width: 146
+        height: 163
+      alignment: 9
+      pivot: {x: 0.4041096, y: 0.5092025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8618725fc35af194cb12e2ead696dcef
+      internalID: -560273899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0005
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1187
+        width: 163
+        height: 163
+      alignment: 9
+      pivot: {x: 0.43558282, y: 0.5030675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebda427b3a51e24491564a84830f7c9
+      internalID: -1704391364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0006
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1256
+        width: 154
+        height: 169
+      alignment: 9
+      pivot: {x: 0.46103895, y: 0.52662724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798a2bcf53bbffe4e9c871276d35751c
+      internalID: -1861542930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0007
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 864
+        width: 150
+        height: 164
+      alignment: 9
+      pivot: {x: 0.45333335, y: 0.51829267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806663c6a357fb24dabba4e5b5cffef5
+      internalID: -458733056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0008
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1528
+        width: 135
+        height: 184
+      alignment: 9
+      pivot: {x: 0.36296296, y: 0.46195653}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5add5f5204c4b4faf139235e290564
+      internalID: -1473357527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0009
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1348
+        width: 161
+        height: 169
+      alignment: 9
+      pivot: {x: 0.45341614, y: 0.5088757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a94f56af9318c248a2313703099acda
+      internalID: -719623277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 146
+        height: 170
+      alignment: 9
+      pivot: {x: 0.38356164, y: 0.5058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b47839ac3c0564eace7e94bea39fe4
+      internalID: 1049075513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0011
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1690
+        width: 138
+        height: 181
+      alignment: 9
+      pivot: {x: 0.4057971, y: 0.53038675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16af07bf18d5b864781933bcf283dcab
+      internalID: -441788016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0012
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1542
+        width: 155
+        height: 173
+      alignment: 9
+      pivot: {x: 0.45806453, y: 0.5086705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7649a16697fa8479e518a911163a7b
+      internalID: -1986610678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0013
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1285
+        width: 147
+        height: 178
+      alignment: 9
+      pivot: {x: 0.39455783, y: 0.49438202}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc038c97209f7543b82fe9a2b7ae0e6
+      internalID: -1585629569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0014
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1625
+        width: 150
+        height: 179
+      alignment: 9
+      pivot: {x: 0.43333334, y: 0.49162012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f925832291022409fb2e6ed81dfa76
+      internalID: -1460966865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0015
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1882
+        width: 167
+        height: 165
+      alignment: 9
+      pivot: {x: 0.4491018, y: 0.5030303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f308d67fb1dfdcd4c9bdee9b2176af28
+      internalID: 1617635606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0016
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1854
+        width: 141
+        height: 193
+      alignment: 9
+      pivot: {x: 0.4326241, y: 0.4715026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3945d18acf699448f14534e9cb2900
+      internalID: 141814469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0017
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1049
+        width: 141
+        height: 181
+      alignment: 9
+      pivot: {x: 0.4113475, y: 0.5138122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b54afd95136f74e9bbab2535d0126a
+      internalID: 1401331460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0018
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1859
+        width: 134
+        height: 188
+      alignment: 9
+      pivot: {x: 0.42537314, y: 0.5159575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85dc6033330c75146a527c3ab490e789
+      internalID: 2067145758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0019
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 303
+        width: 129
+        height: 171
+      alignment: 9
+      pivot: {x: 0.41860464, y: 0.50877196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a46d0809a3e20f40ad70eab0cb1b5e2
+      internalID: 1383978897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0020
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 610
+        width: 130
+        height: 170
+      alignment: 9
+      pivot: {x: 0.4076923, y: 0.5117647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec5c18e392e96c448d1ff44b466a4ef
+      internalID: 365149130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0021
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1859
+        width: 177
+        height: 188
+      alignment: 9
+      pivot: {x: 0.49717513, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7dd2d5965dcd14d9da46924a53772a
+      internalID: 1627976694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0022
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1673
+        width: 151
+        height: 191
+      alignment: 9
+      pivot: {x: 0.45695364, y: 0.55497384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09123860883998d419da549b2097566b
+      internalID: -814807081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0023
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1556
+        width: 159
+        height: 181
+      alignment: 9
+      pivot: {x: 0.4654088, y: 0.5469613}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7c32a28a573c84b9531ef65fc2fe7d
+      internalID: 2044531115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0024
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1197
+        width: 143
+        height: 181
+      alignment: 9
+      pivot: {x: 0.4055944, y: 0.5248619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3fe948042c78e479e40ac608a47330
+      internalID: 1073199730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0025
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1419
+        width: 141
+        height: 191
+      alignment: 9
+      pivot: {x: 0.40425533, y: 0.46596858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae848df07ab671949bea826af54a4172
+      internalID: -1229101305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0026
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1534
+        width: 159
+        height: 166
+      alignment: 9
+      pivot: {x: 0.4779874, y: 0.48192772}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d0d32a4ba5b1e4aa0b4a0170440431
+      internalID: 477191331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0027
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 1447
+        width: 156
+        height: 168
+      alignment: 9
+      pivot: {x: 0.47435898, y: 0.4940476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae411ef0c8bd24c4a95deb96bb6957ae
+      internalID: 1373888039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0028
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1666
+        width: 159
+        height: 174
+      alignment: 9
+      pivot: {x: 0.4716981, y: 0.4770115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536bdef4a85f0ac48bb706a229c2b9bc
+      internalID: -379027575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0029
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1369
+        width: 151
+        height: 167
+      alignment: 9
+      pivot: {x: 0.4834437, y: 0.502994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff80a81330077249895066f4a69f992
+      internalID: 1686804683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0030
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1
+        width: 138
+        height: 170
+      alignment: 9
+      pivot: {x: 0.39855072, y: 0.5117647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608347ae1f7c02243aa34e9f1db6984b
+      internalID: -2127662975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0031
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 720
+        width: 131
+        height: 182
+      alignment: 9
+      pivot: {x: 0.38931298, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597ca75d276845841a6d354220f083a4
+      internalID: 622335724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0032
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1
+        width: 139
+        height: 166
+      alignment: 9
+      pivot: {x: 0.41007194, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60aa2909b9d3ec4b8f170da9b941b94
+      internalID: 684925884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0033
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 157
+        width: 132
+        height: 169
+      alignment: 9
+      pivot: {x: 0.38636363, y: 0.5088757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c2ba22d0c0e50419de2d14b8692153
+      internalID: 1592341094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0034
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1
+        width: 135
+        height: 170
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd648194a0f65f428bb59dd7283c365
+      internalID: 1198176823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0035
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 150
+        width: 135
+        height: 165
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5212121}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f222691083c2ce9449e2b6b01d468bcc
+      internalID: -1030158114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0036
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 153
+        width: 136
+        height: 168
+      alignment: 9
+      pivot: {x: 0.375, y: 0.5297619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d626c29e9cb1d0e4d8435f4c50c3cbcc
+      internalID: 1389040748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0037
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 313
+        width: 134
+        height: 162
+      alignment: 9
+      pivot: {x: 0.37313432, y: 0.52469134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489ee11d8d417754b9527d8b1d325ef3
+      internalID: 459185386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0038
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 158
+        width: 136
+        height: 172
+      alignment: 9
+      pivot: {x: 0.3897059, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f850886baacaadb41af170fc7df610cc
+      internalID: -673471181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0039
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 154
+        width: 135
+        height: 166
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5301205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d1328044d8fdd4c87cdcfdfcec9464
+      internalID: 1935076906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0040
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 924
+        width: 147
+        height: 167
+      alignment: 9
+      pivot: {x: 0.44217688, y: 0.502994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13f77bca1470124a9ea7ae97ed05475
+      internalID: -1719977191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0041
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1455
+        width: 148
+        height: 179
+      alignment: 9
+      pivot: {x: 0.3918919, y: 0.51955307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2181488af7769a14ba10d776448cabd3
+      internalID: 77195830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0042
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 772
+        width: 142
+        height: 171
+      alignment: 9
+      pivot: {x: 0.42957747, y: 0.53801167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de51f294a6fa30949b29468fb7893b4d
+      internalID: 2009291741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0043
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1866
+        width: 141
+        height: 181
+      alignment: 9
+      pivot: {x: 0.41843972, y: 0.5635359}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d940c2b7c66f4a44834d27104f5630d
+      internalID: 565733353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0044
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1
+        width: 142
+        height: 165
+      alignment: 9
+      pivot: {x: 0.4225352, y: 0.5030303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0fd6643eb5f234bbe73f13b7364f75
+      internalID: -931746454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0045
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 487
+        width: 147
+        height: 163
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.5092025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1a3493ffe040944acb673e605a4014
+      internalID: -573968558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0046
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1
+        width: 147
+        height: 159
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.49056605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaccf5a0aec74a64ebc41d49d5030229
+      internalID: -14636989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0047
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1084
+        width: 147
+        height: 175
+      alignment: 9
+      pivot: {x: 0.43537414, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d421a466cfe6549ba6093247b2d4d7
+      internalID: 1707311516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0048
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 944
+        width: 142
+        height: 175
+      alignment: 9
+      pivot: {x: 0.42957747, y: 0.45142856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82bf6bf9e11e10459bb33bd783fd3d7
+      internalID: 869790355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0049
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1113
+        width: 156
+        height: 167
+      alignment: 9
+      pivot: {x: 0.42948717, y: 0.48502994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c34a5fcd6e05d42bc5d315e627ffaf
+      internalID: 237209427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0050
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1373
+        width: 153
+        height: 172
+      alignment: 9
+      pivot: {x: 0.4117647, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178f94352e3fa0c49bf7afdd821bd0bb
+      internalID: 1925451594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0051
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 382
+        width: 146
+        height: 166
+      alignment: 9
+      pivot: {x: 0.41095892, y: 0.5180723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05e0c3fc5e8eb94face391e3207d601
+      internalID: 1453105253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0052
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1243
+        width: 152
+        height: 179
+      alignment: 9
+      pivot: {x: 0.3881579, y: 0.5027933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe217358e7db5984c98ea28f8fe2eac2
+      internalID: 321668761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0053
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1030
+        width: 152
+        height: 170
+      alignment: 9
+      pivot: {x: 0.38157895, y: 0.49411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fb73d7947052f4581bf77040b47ebd
+      internalID: 705665905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0054
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1198
+        width: 155
+        height: 169
+      alignment: 9
+      pivot: {x: 0.42580646, y: 0.5029586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c087327c515fcb045bd773cbb089d4c5
+      internalID: -91577397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0055
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1358
+        width: 147
+        height: 177
+      alignment: 9
+      pivot: {x: 0.39455783, y: 0.519774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b30c90748cf8b4d80323a2bb386041
+      internalID: 91506080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0056
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1701
+        width: 153
+        height: 176
+      alignment: 9
+      pivot: {x: 0.39215687, y: 0.51704544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86756d9c3340db469ae92e696bca65a
+      internalID: -625166695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0057
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 550
+        width: 144
+        height: 168
+      alignment: 9
+      pivot: {x: 0.375, y: 0.51785713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffa2e895c0c0284b8d94d6010f44e2e
+      internalID: 1347213538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0058
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1615
+        width: 153
+        height: 166
+      alignment: 9
+      pivot: {x: 0.37254903, y: 0.5120482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5126fbb40621c46a1bd3797aeaf595
+      internalID: 466484476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0059
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 904
+        width: 147
+        height: 167
+      alignment: 9
+      pivot: {x: 0.37414965, y: 0.502994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e83d94841dcda4ca81e0f995369032
+      internalID: 553441101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0060
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1878
+        width: 167
+        height: 169
+      alignment: 9
+      pivot: {x: 0.4550898, y: 0.5147929}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e319eb498084aa4ea4a141de88ecc90
+      internalID: -1863496172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0061
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1791
+        width: 161
+        height: 170
+      alignment: 9
+      pivot: {x: 0.4409938, y: 0.5058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59aa2fb7c203ac74997144e99643e767
+      internalID: -2012778391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0062
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1028
+        width: 147
+        height: 171
+      alignment: 9
+      pivot: {x: 0.3877551, y: 0.5204678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ada8cacbad4d44bbbd3cbdf5b62445
+      internalID: -256825828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doompart0063
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1071
+        width: 151
+        height: 179
+      alignment: 9
+      pivot: {x: 0.37748346, y: 0.5363129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bfef8a544962a41ad9d08ee3d1831b
+      internalID: -33487675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e11d349833a986241a3b027d77e920db
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      doompart0001: -738133682
+      doompart0002: -1808511279
+      doompart0003: 1798057778
+      doompart0004: -560273899
+      doompart0005: -1704391364
+      doompart0006: -1861542930
+      doompart0007: -458733056
+      doompart0008: -1473357527
+      doompart0009: -719623277
+      doompart0010: 1049075513
+      doompart0011: -441788016
+      doompart0012: -1986610678
+      doompart0013: -1585629569
+      doompart0014: -1460966865
+      doompart0015: 1617635606
+      doompart0016: 141814469
+      doompart0017: 1401331460
+      doompart0018: 2067145758
+      doompart0019: 1383978897
+      doompart0020: 365149130
+      doompart0021: 1627976694
+      doompart0022: -814807081
+      doompart0023: 2044531115
+      doompart0024: 1073199730
+      doompart0025: -1229101305
+      doompart0026: 477191331
+      doompart0027: 1373888039
+      doompart0028: -379027575
+      doompart0029: 1686804683
+      doompart0030: -2127662975
+      doompart0031: 622335724
+      doompart0032: 684925884
+      doompart0033: 1592341094
+      doompart0034: 1198176823
+      doompart0035: -1030158114
+      doompart0036: 1389040748
+      doompart0037: 459185386
+      doompart0038: -673471181
+      doompart0039: 1935076906
+      doompart0040: -1719977191
+      doompart0041: 77195830
+      doompart0042: 2009291741
+      doompart0043: 565733353
+      doompart0044: -931746454
+      doompart0045: -573968558
+      doompart0046: -14636989
+      doompart0047: 1707311516
+      doompart0048: 869790355
+      doompart0049: 237209427
+      doompart0050: 1925451594
+      doompart0051: 1453105253
+      doompart0052: 321668761
+      doompart0053: 705665905
+      doompart0054: -91577397
+      doompart0055: 91506080
+      doompart0056: -625166695
+      doompart0057: 1347213538
+      doompart0058: 466484476
+      doompart0059: 553441101
+      doompart0060: -1863496172
+      doompart0061: -2012778391
+      doompart0062: -256825828
+      doompart0063: -33487675
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
